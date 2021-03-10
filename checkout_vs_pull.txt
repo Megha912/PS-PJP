@@ -1,0 +1,3 @@
+checkout treats origin/<branch> as it currently exists in your local repository.
+
+pull collects data from remote hosting server.
