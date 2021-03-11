@@ -1,10 +1,13 @@
 class HelloWorld 
-{ 
-
-    public static float getSimpleInterest(float p,float r,float t){
-        float sinterest;
+{
+    public float getSimpleInterest(float p,float r,float t){
+        float simpleInterest;
+<<<<<<< HEAD
+        simpleInterest = (p * r * t) / 100;
+=======
         sinterest = (p * r * t) / 100;
-        return sinterest;
+>>>>>>> be10e231d0bef072594bf0d51ad5090ca8b1fc24
+        return simpleInterest;
     }
 
     public static void main(String args[]) 
@@ -16,4 +19,5 @@ class HelloWorld
         System.out.print("S_Interest is : ");
         System.out.println(getSimpleInterest(p,r,t)); 
     } 
+
 } 

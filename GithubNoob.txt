@@ -1,0 +1,9 @@
+Hey there!
+I am new to github. Here is the link to github documentation : https://docs.github.com/en
+
+<<<<<<< HEAD
+I tried out branching for the first time. 
+Oh yeah, I also recently learned how to push. Lol!
+=======
+I tried out branching for the first time
+>>>>>>> 8e9fcfd248cb510035d90d936d7aa9feff4bcbf4
