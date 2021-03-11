@@ -1,10 +1,15 @@
 class HelloWorld 
 { 
-
-    public static float getSimpleInterest(float p,float r,float t){
-        float sinterest;
-        sinterest = (p * r * t) / 100;
-        return sinterest;
+    public float getFinalAmount(float p,float r,float t)
+    {
+       float Amount;
+       Amount = p*( 1 + (r*t));
+       return Amount; 
+    }
+    public float getSimpleInterest(float p,float r,float t){
+        float simpleInterest;
+        simpleInterest = (p * r * t) / 100;
+        return simpleInterest;
     }
 
     public static void main(String args[]) 
@@ -15,5 +20,7 @@ class HelloWorld
         t = 2;
         System.out.print("S_Interest is : ");
         System.out.println(getSimpleInterest(p,r,t)); 
+        System.out.print("Final Amount is : ");
+        System.out.println(getFinalAmount(p,r,t)); 
     } 
 } 
