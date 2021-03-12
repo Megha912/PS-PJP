@@ -15,7 +15,7 @@ class HelloWorld
         float p,r,t;
         p = 100;
         r = 10;
-        t = 2;
+        t = 10;
         System.out.print("S_Interest is : ");
         System.out.println(getSimpleInterest(p,r,t)); 
     } 
